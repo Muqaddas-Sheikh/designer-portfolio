@@ -1,0 +1,246 @@
+/* ===== HOME SECTION ===== */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  min-height: 100vh;
+  background: #fff;
+  flex-wrap: wrap;
+  margin-top: -50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  animation: iosFadeUp 0.9s ease-in-out;
+  box-sizing: border-box;
+}
+
+/* ---- Left Content ---- */
+.home-content {
+  flex: 1;
+  max-width: 500px;
+  margin-top: -60px;
+  animation: iosSlideLeft 1s ease-in-out;
+}
+
+.home-content h1 {
+  font-size: 85px;
+  color: #222;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  transition: color 0.3s ease;
+}
+
+.home-content h2 {
+  font-size: 34px;
+  color: #FFC000;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 40px;
+  transition: color 0.3s ease;
+}
+
+/* ---- Right Image ---- */
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: iosSlideRight 1s ease-in-out;
+}
+
+.home-image img {
+  width: 520px;
+  height: 520px;
+  object-fit: cover;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.home-image img:hover {
+  transform: scale(1.04);
+}
+
+/* ---- Circle Links ---- */
+.circle-links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background: #118AB2;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.circle:hover {
+  background: #e63c3c;
+  transform: scale(1.07);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .home {
+    padding: 60px 50px;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .home-content h1 {
+    font-size: 65px;
+  }
+
+  .home-content h2 {
+    font-size: 28px;
+  }
+
+  .home-content p {
+    font-size: 17px;
+  }
+
+  .home-image img {
+    width: 420px;
+    height: 420px;
+  }
+}
+
+/* Mobile (Medium) */
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 30px;
+    margin-top: 0;
+  }
+
+  .home-content {
+    margin-top: 0;
+  }
+
+  .home-content h1 {
+    font-size: 60px;
+  }
+
+  .home-content h2 {
+    font-size: 26px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .home-image img {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+  }
+
+  .circle-links {
+    justify-content: center;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile (Small) */
+@media (max-width: 480px) {
+  .home {
+    padding: 30px 15px;
+  }
+
+  .home-content h1 {
+    font-size: 45px;
+  }
+
+  .home-content h2 {
+    font-size: 22px;
+  }
+
+  .home-content p {
+    font-size: 15px;
+  }
+
+  .home-image img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .circle {
+    width: 90px;
+    height: 90px;
+    font-size: 13px;
+  }
+}
+
+/* ===== NIGHT MODE ===== */
+.home.dark-theme {
+  background: black;
+}
+
+.home.dark-theme .home-content h1 {
+  color: #ffffff;
+}
+
+.home.dark-theme .home-content p {
+  color: #cccccc;
+}
+
+.home.dark-theme .circle {
+  background: #ff6aa5;
+}
+
+.home.dark-theme .circle:hover {
+  background: #e63c3c;
+}
+
+/* ===== iOS SMOOTH ANIMATIONS ===== */
+@keyframes iosFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes iosSlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes iosSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,84 @@
+.footer {
+  background-color: black;
+  color: #555;
+  /* border-top: 1px solid #ddd; */
+  padding: 30px 20px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  gap: 30px;
+}
+
+/* Sections */
+.footer-left h4,
+.footer-center h4 {
+  margin-bottom: 10px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-left p,
+.footer-right p {
+  margin: 5px 0;
+  transition: color 0.3s ease;
+  color: white;
+}
+
+.social-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+  }
+}
+
+/* ===== NIGHT MODE STYLES ===== */
+.footer.dark-theme {
+  background-color: black;
+  color: #cccccc;
+  /* border-top: 1px solid #404040; */
+}
+
+.footer.dark-theme .footer-left h4,
+.footer.dark-theme .footer-center h4 {
+  color: #ffffff;
+}
+
+.footer.dark-theme .footer-left p,
+.footer.dark-theme .footer-right p {
+  color: #cccccc;
+}
+
+.footer.dark-theme .social-links a {
+  color: #cccccc;
+}
+
+.footer.dark-theme .social-links a:hover {
+  color: #ffffff;
+}
