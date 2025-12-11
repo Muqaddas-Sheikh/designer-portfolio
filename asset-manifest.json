@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/designer-portfolio/static/css/main.6c40ff1b.css",
-    "main.js": "/designer-portfolio/static/js/main.a503c024.js",
+    "main.js": "/designer-portfolio/static/js/main.c872c9c0.js",
     "static/media/logo.png": "/designer-portfolio/static/media/logo.23b96dacae64d1b9696b.png",
     "static/media/ChatGPT Image Oct 26, 2025, 11_34_33 AM.png": "/designer-portfolio/static/media/ChatGPT Image Oct 26, 2025, 11_34_33 AM.0dcf124687fc1d79dd9d.png",
     "static/media/project-1.png": "/designer-portfolio/static/media/project-1.efa89a9d080b9fd9ca94.png",
     "index.html": "/designer-portfolio/index.html",
     "main.6c40ff1b.css.map": "/designer-portfolio/static/css/main.6c40ff1b.css.map",
-    "main.a503c024.js.map": "/designer-portfolio/static/js/main.a503c024.js.map"
+    "main.c872c9c0.js.map": "/designer-portfolio/static/js/main.c872c9c0.js.map"
   },
   "entrypoints": [
     "static/css/main.6c40ff1b.css",
-    "static/js/main.a503c024.js"
+    "static/js/main.c872c9c0.js"
   ]
 }
