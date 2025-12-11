@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/designer-portfolio/static/css/main.6c40ff1b.css",
-    "main.js": "/designer-portfolio/static/js/main.fd2f6c02.js",
+    "main.js": "/designer-portfolio/static/js/main.08fa5456.js",
     "static/media/logo.png": "/designer-portfolio/static/media/logo.23b96dacae64d1b9696b.png",
     "static/media/hifza.png": "/designer-portfolio/static/media/hifza.0dcf124687fc1d79dd9d.png",
     "static/media/project-1.png": "/designer-portfolio/static/media/project-1.efa89a9d080b9fd9ca94.png",
     "index.html": "/designer-portfolio/index.html",
     "main.6c40ff1b.css.map": "/designer-portfolio/static/css/main.6c40ff1b.css.map",
-    "main.fd2f6c02.js.map": "/designer-portfolio/static/js/main.fd2f6c02.js.map"
+    "main.08fa5456.js.map": "/designer-portfolio/static/js/main.08fa5456.js.map"
   },
   "entrypoints": [
     "static/css/main.6c40ff1b.css",
-    "static/js/main.fd2f6c02.js"
+    "static/js/main.08fa5456.js"
   ]
 }
